@@ -26,4 +26,3 @@ Backend runs at: https://localhost:7283
 - Gold tiles swap positions with the leader
 - Simple 2-player logic
 - Fully visual grid with players and game state
-- Clean Vuetify UI layout
