@@ -1,0 +1,15 @@
+
+server/bin/
+server/obj/
+server/.vs/
+*.user
+*.suo
+
+client/node_modules/
+client/dist/
+client/.vite/
+
+.DS_Store
+Thumbs.db
+
+*.log

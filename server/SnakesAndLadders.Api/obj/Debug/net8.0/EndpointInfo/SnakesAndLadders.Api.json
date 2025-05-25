@@ -1,0 +1,80 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SnakesAndLadders.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Game": {
+      "post": {
+        "tags": [
+          "Game"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GameConfig"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GameConfig"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GameConfig"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Game"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Game/move": {
+      "post": {
+        "tags": [
+          "Game"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GameConfig": {
+        "type": "object",
+        "properties": {
+          "snakes": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ladders": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

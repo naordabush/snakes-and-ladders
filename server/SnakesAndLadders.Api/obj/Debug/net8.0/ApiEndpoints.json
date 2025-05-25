@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "SnakesAndLadders.Api.Controllers.GameController",
+    "Method": "StartGame",
+    "RelativePath": "api/Game",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "config",
+        "Type": "SnakesAndLadders.Api.Models.GameConfig",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SnakesAndLadders.Api.Controllers.GameController",
+    "Method": "GetGame",
+    "RelativePath": "api/Game",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SnakesAndLadders.Api.Controllers.GameController",
+    "Method": "MoveTurn",
+    "RelativePath": "api/Game/move",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
