@@ -26,3 +26,7 @@ Backend runs at: https://localhost:7283
 - Gold tiles swap positions with the leader
 - Simple 2-player logic
 - Fully visual grid with players and game state
+
+
+![{0F2B94F1-0059-4977-B470-67BC335B617C}](https://github.com/user-attachments/assets/036f31f7-44ee-44c5-a64e-3e9ef5db61de)
+
